@@ -1,6 +1,7 @@
 #exc 1
 
-my_mat = [[0, 10, 3], [9, 0, 7], [6, 5, 11]]
+#my_mat = [[0, 10, 3], [9, 0, 7], [6, 5, 11]]
+my_mat = [[0, 10, 3],[9, 0, 7],[6, 5, 11]]
 x = range(3)
 row1 = []
 col1 = []
@@ -23,11 +24,11 @@ def sort(col):
         col[0] = col[1]
         col[1] = a
       if col[1]>col[2] :
-        a = col1[1]
+        a = col[1]
         col[1] = col[2]
         col[2] = a
       if col[0] > col[1]:
-        a = col1[0]
+        a = col[0]
         col[0] = col[1]
         col[1] = a
    return col
